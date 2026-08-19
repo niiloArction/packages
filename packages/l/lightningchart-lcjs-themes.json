@@ -1,0 +1,32 @@
+{
+  "name": "lightningchart-lcjs-themes",
+  "filename": "lcjs-themes.iife.js",
+  "description": "Open-source Themes package for LightningChart JS",
+  "homepage": "https://github.com/Arction/lcjs-themes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arction/lcjs-themes.git"
+  },
+  "keywords": [
+    "lightningchart",
+    "themes"
+  ],
+  "license": "MIT",
+  "autoupdate": {
+    "source": "npm",
+    "target": "@lightningchart/lcjs-themes",
+    "fileMap": [
+      {
+        "basePath": "dist/iife",
+        "files": [
+          "lcjs-themes.iife.js"
+        ]
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "LightningChart Ltd."
+    }
+  ]
+}

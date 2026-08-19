@@ -1,0 +1,30 @@
+{
+  "name": "lightningchart-lcjs",
+  "filename": "lcjs.iife.js",
+  "description": "A high-performance charting library.",
+  "homepage": "https://www.lightningchart.com/lightningchart-js/",
+  "keywords": [
+    "chart",
+    "data-visualization",
+    "webgl",
+    "lightningchart"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "autoupdate": {
+    "source": "npm",
+    "target": "@lightningchart/lcjs",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "lcjs.iife.js"
+        ]
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "LightningChart Ltd."
+    }
+  ]
+}
